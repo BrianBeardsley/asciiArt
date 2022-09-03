@@ -1,6 +1,8 @@
 module.exports = {
     postAscii: async (req, res)=>{
-        console.log(req.body + ' request')
+        console.log(req.body.asciiName + ' = asciiName')
+        console.log(req.body.asciiFile + ' = asciiFile')
+        console.log(req.body.asciiFile.data + ' = asciiFile')
         console.log(res.body + ' response')
         try{
 
